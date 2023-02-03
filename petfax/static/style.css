@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Abel&family=Bowlby+One&display=swap');
+
+:root {
+    /* fonts */
+    --header-font: 'Bowlby One', impact;
+    --accent-font: 'Abel', verdana;
+    --body-font: 'Helvetica Neue', Helvetica;
+    /* colors */
+    --light-accent: grey;
+    --main-accent: green;
+    --second-accent: black;
+}
+
+/* GENERAL */
+body {
+    background: var(--light-accent);
+    font-family: var(--body-font);
+}
+
+.container {
+    width: 50%;
+    margin: 2em auto;
+    padding: 1em 3em 3em 3em;
+    border-radius: 1em;
+    background: white;
+    box-shadow: 2px 2px #ddd;
+}
+
+h1 {
+    margin: 0;
+    color: var(--main-accent);
+    font-family: 'Bowlby One', impact;
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    color: var(--second-accent);
+    margin: 0.5em 0;
+}
+
+a {
+    font-family: var(--accent-font);
+    text-decoration: none;
+    color: var(--main-accent);
+}
+
+.callout {
+    background: #eee;
+    padding: 0.5em;
+    border-radius: 1em;
+    text-align: center;
+    font-family: var(--accent-font);
+    font-weight: 400;
+}
+
+/* PETS */
+.pets-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em 0;
+}
+
+.pets-container img {
+    width: 100%;
+    border-radius: 1em;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.pet {
+    width: 35%;
+    margin: 0 0.5em;
+}
